@@ -6,14 +6,6 @@
 }
 
 /*DEBUG*/
-.debug .header-top {
-    background-color: #add8e6;
-}
-
-.debug .header-top .row {
-    background-color: #daa520;
-    line-height: 40px;
-}
 
 .debug [class^="col"], .debug .hero, .debug .footer-bottom > *  {
     border: 2px dashed #000;
@@ -144,8 +136,18 @@
 }
 
 /*HEADER*/
-.header-top {
+header{
+    background-color: #3161e0;
+}
+
+.header-top .row{
     padding: 16px 0;
+    line-height: 40px;
+}
+
+.logo{
+    height: 30px;
+    vertical-align: middle;
 }
 
 .main-nav ul {
@@ -160,10 +162,19 @@
 
 .main-nav li a {
     text-decoration: none;
+    margin-left: 20px;
+    color: #ffffff;
 }
 
 .header-top .login {
     text-align: right;
+}
+
+button{
+    padding: 8px;
+    border-radius: 14px;
+    border: none;
+    cursor: pointer;
 }
 
 .hero-container  {
