@@ -11,29 +11,12 @@
     border: 2px dashed #000;
 }
 
-.debug [class^="col"] [class^="col"] {
-    border-color: #fff;
-}
-
-.debug .hero-container {
-    background-colo;
-    heigh: 600px;
-}
-
-.debug .hero {
-    background-colo;
+.debug [class^="col"] [class^="col"]{
+    border-color: #ffffff;
 }
 
 .debug section .row {
     height: 500px;
-}
-
-.debug section .col-70 {
-    backgroun: #1e90ff;
-}
-
-.debug section .col-30 {
-    backgroun: #ffc0cb;
 }
 
 .debug section:last-child .row {
